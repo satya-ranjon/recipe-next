@@ -4,9 +4,11 @@ import Button from "../common/Button";
 import { MdDelete } from "react-icons/md";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
+import { useGlobalContext } from "@/contexts/store";
 
 const DeleteRecipe = ({ id }) => {
   const router = useRouter();
+  const { deleteRecipe } = useGlobalContext();
 
   const handleDelete = () => {
     Swal.fire({
@@ -19,12 +21,14 @@ const DeleteRecipe = ({ id }) => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
+        deleteRecipe(id);
         Swal.fire({
           title: "Deleted!",
           text: "Your recipe has been deleted.",
           icon: "success",
           confirmButtonColor: "#fb923c",
         });
+
         router.push("/");
       }
     });

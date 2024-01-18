@@ -1,0 +1,179 @@
+[
+  {
+    "id": "01",
+    "title": "Hilsa Fish Curry",
+    "ingredients": [
+      { "id": 39, "label": "Hilsa fish" },
+      { "id": 17, "label": "Garlic" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 20, "label": "Tomatoes" },
+      { "id": 14, "label": "Chili powder" },
+      { "id": 16, "label": "Coriander seeds" },
+      { "id": 30, "label": "Coconut milk" },
+      { "id": 36, "label": "Cilantro" },
+      { "id": 24, "label": "Rice" }
+    ],
+    "instruction": "Saute garlic, ginger, and spices. Add tomatoes and coconut milk. Simmer with hilsa fish until cooked. Serve over rice and garnish with cilantro.",
+    "image": "",
+    "video": ""
+  },
+  {
+    "id": "02",
+    "title": "Chocolate Chip Cookies",
+    "ingredients": [
+      { "id": 1, "label": "Flour" },
+      { "id": 2, "label": "Eggs" },
+      { "id": 3, "label": "Butter" },
+      { "id": 4, "label": "Sugar" },
+      { "id": 9, "label": "Chocolate chips" },
+      { "id": 10, "label": "Vanilla extract" },
+      { "id": 6, "label": "Salt" },
+      { "id": 8, "label": "Baking powder" }
+    ],
+    "instruction": "Preheat oven to 350°F. In a bowl, mix flour, baking powder, and salt. In another bowl, cream together butter and sugar. Add eggs and vanilla extract. Gradually add dry ingredients and fold in chocolate chips. Drop rounded tablespoons onto baking sheets and bake for 10-12 minutes.",
+    "image": "https://i.pinimg.com/564x/62/8f/19/628f19d0dfeb05545a9850887005420d.jpg",
+    "video": "https://www.youtube.com/watch?v=3vUtRRZG0xY"
+  },
+  {
+    "id": "03",
+    "title": "Spicy Chickpea Curry",
+    "ingredients": [
+      { "id": 22, "label": "Chickpeas" },
+      { "id": 19, "label": "Onions" },
+      { "id": 20, "label": "Tomatoes" },
+      { "id": 17, "label": "Garlic" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 13, "label": "Turmeric powder" },
+      { "id": 14, "label": "Chili powder" },
+      { "id": 15, "label": "Cumin seeds" },
+      { "id": 36, "label": "Cilantro" },
+      { "id": 24, "label": "Rice" }
+    ],
+    "instruction": "Saute onions, garlic, and ginger. Add cumin seeds, turmeric, and chili powder. Stir in tomatoes and chickpeas. Simmer until chickpeas are tender. Serve over rice and garnish with cilantro.",
+    "image": "https://i.pinimg.com/564x/64/70/94/647094a1b9ff3c626dd0bfb0c273c2f0.jpg",
+    "video": ""
+  },
+  {
+    "id": "04",
+    "title": "Mango Lassi",
+    "ingredients": [
+      { "id": 28, "label": "Yogurt" },
+      { "id": 32, "label": "Mangoes" },
+      { "id": 29, "label": "Lime juice" },
+      { "id": 4, "label": "Sugar" },
+      { "id": 6, "label": "Salt" }
+    ],
+    "instruction": "Blend yogurt, mangoes, lime juice, sugar, and salt until smooth. Serve chilled.",
+    "image": "https://i.pinimg.com/736x/1a/4c/75/1a4c751460bc1aeeeef3c2081d854bb5.jpg",
+    "video": "https://www.youtube.com/watch?v=oDkevUiEVvw"
+  },
+  {
+    "id": "05",
+    "title": "Chicken Biryani",
+    "ingredients": [
+      { "id": 26, "label": "Chicken" },
+      { "id": 24, "label": "Rice" },
+      { "id": 19, "label": "Onions" },
+      { "id": 17, "label": "Garlic" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 30, "label": "Coconut milk" },
+      { "id": 33, "label": "Panch Phoron" },
+      { "id": 34, "label": "Bay leaves" },
+      { "id": 35, "label": "Green chilies" },
+      { "id": 36, "label": "Cilantro" }
+    ],
+    "instruction": "Marinate chicken. Cook rice separately. In a pan, saute onions, garlic, and ginger. Add chicken, coconut milk, and spices. Layer rice and chicken mixture. Cook on low heat until done. Garnish with cilantro.",
+    "image": "https://i.pinimg.com/564x/ca/bf/cc/cabfcc101fa6f6d99b3c07e9997f7c47.jpg",
+    "video": "https://www.youtube.com/watch?v=95BCU1n268w"
+  },
+  {
+    "id": "06",
+    "title": "Banana Bread",
+    "ingredients": [
+      { "id": 31, "label": "Bananas" },
+      { "id": 2, "label": "Eggs" },
+      { "id": 5, "label": "Butter" },
+      { "id": 4, "label": "Sugar" },
+      { "id": 1, "label": "Flour" },
+      { "id": 8, "label": "Baking powder" },
+      { "id": 6, "label": "Salt" },
+      { "id": 10, "label": "Vanilla extract" }
+    ],
+    "instruction": "Mash bananas. Mix with eggs, melted butter, and sugar. In another bowl, combine flour, baking powder, and salt. Combine wet and dry ingredients. Add vanilla extract. Bake at 350°F for 60-70 minutes.",
+    "image": "https://i.pinimg.com/564x/c8/f9/c5/c8f9c57093bb46be509c1f964d7be57d.jpg",
+    "video": "https://www.youtube.com/watch?v=vPUuY-bEK2w"
+  },
+  {
+    "id": "07",
+    "title": "Fish Tacos",
+    "ingredients": [
+      { "id": 25, "label": "Fish" },
+      { "id": 1, "label": "Flour" },
+      { "id": 6, "label": "Salt" },
+      { "id": 8, "label": "Baking powder" },
+      { "id": 37, "label": "Mint leaves" },
+      { "id": 35, "label": "Green chilies" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 5, "label": "Butter" },
+      { "id": 36, "label": "Cilantro" }
+    ],
+    "instruction": "Coat fish in seasoned flour. Fry until golden brown. Make a sauce with mint, green chilies, and ginger. Assemble tacos with fish, sauce, and garnish with cilantro.",
+    "image": "https://i.pinimg.com/564x/bc/83/21/bc8321ceed3caa890ca1f42102453ac5.jpg",
+    "video": "https://www.youtube.com/watch?v=pWuQVJU2J0k"
+  },
+  {
+    "id": "08",
+    "title": "Curry Shrimp",
+    "ingredients": [
+      { "id": 38, "label": "Shrimp" },
+      { "id": 20, "label": "Tomatoes" },
+      { "id": 17, "label": "Garlic" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 13, "label": "Turmeric powder" },
+      { "id": 14, "label": "Chili powder" },
+      { "id": 15, "label": "Cumin seeds" },
+      { "id": 30, "label": "Coconut milk" },
+      { "id": 36, "label": "Cilantro" },
+      { "id": 24, "label": "Rice" }
+    ],
+    "instruction": "Saute garlic, ginger, and spices. Add tomatoes, shrimp, and coconut milk. Simmer until shrimp is cooked. Serve over rice and garnish with cilantro.",
+    "image": "https://i.pinimg.com/564x/29/6b/16/296b165ff358efd26f866cff64c14f1d.jpg",
+    "video": "https://www.youtube.com/watch?v=6QtWudBK0n0"
+  },
+  {
+    "id": "09",
+    "title": "Vegetarian Stir-Fry",
+    "ingredients": [
+      { "id": 21, "label": "Potatoes" },
+      { "id": 23, "label": "Lentils" },
+      { "id": 19, "label": "Onions" },
+      { "id": 17, "label": "Garlic" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 15, "label": "Cumin seeds" },
+      { "id": 16, "label": "Coriander seeds" },
+      { "id": 20, "label": "Tomatoes" },
+      { "id": 36, "label": "Cilantro" }
+    ],
+    "instruction": "Boil potatoes and lentils. In a pan, saute onions, garlic, and ginger. Add cumin, coriander seeds, and tomatoes. Stir in boiled potatoes and lentils. Garnish with cilantro.",
+    "image": "",
+    "video": ""
+  },
+  {
+    "id": "09",
+    "title": "Hilsa Fish Curry",
+    "ingredients": [
+      { "id": 39, "label": "Hilsa fish" },
+      { "id": 17, "label": "Garlic" },
+      { "id": 18, "label": "Ginger" },
+      { "id": 20, "label": "Tomatoes" },
+      { "id": 14, "label": "Chili powder" },
+      { "id": 16, "label": "Coriander seeds" },
+      { "id": 30, "label": "Coconut milk" },
+      { "id": 36, "label": "Cilantro" },
+      { "id": 24, "label": "Rice" }
+    ],
+    "instruction": "Saute garlic, ginger, and spices. Add tomatoes and coconut milk. Simmer with hilsa fish until cooked. Serve over rice and garnish with cilantro.",
+    "image": "",
+    "video": ""
+  }
+]
