@@ -1,6 +1,8 @@
 import { inter } from "@/styles/font";
 import "./globals.css";
 import { GlobalContextProvider } from "@/contexts/store";
+import Navbar from "@/components/navbar";
+import CreateRecipe from "@/components/recipe/CreateRecipe";
 
 export const metadata = {
   title: "RecipeRealm",
