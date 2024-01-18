@@ -8,10 +8,13 @@ import Button from "../common/Button";
 import Swal from "sweetalert2";
 import Modal from "../common/Modal";
 import { FaEdit } from "react-icons/fa";
+import { useGlobalContext } from "@/contexts/store";
 
 export default function UpdateRecipe({ data }) {
   const [recipe, setRecipe] = useState(data);
   const [isUpdateRecipe, setIsUpdateRecipe] = useState(false);
+
+  const { updateRecipe } = useGlobalContext();
 
   const handleUpdateRecipe = () => {
     setIsUpdateRecipe((prev) => !prev);
@@ -49,8 +52,7 @@ export default function UpdateRecipe({ data }) {
       showError("instruction");
       return;
     }
-
-    console.log(recipe);
+    updateRecipe(data.id, recipe);
   };
 
   return (

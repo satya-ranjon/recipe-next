@@ -29,6 +29,41 @@ export const GlobalContextProvider = ({ children }) => {
     setRecipes(newData);
   };
 
+  const updateRecipe = (id, data) => {
+    const initialData = JSON.parse(localStorage.getItem("recipes"));
+    const newData = initialData?.filter((item) => {
+      if (item.id === id) {
+        {
+          item.title = data.title;
+          item.ingredients = data.ingredients;
+          item.instruction = data.instruction;
+          item.video = data.video;
+          item.image = data.image;
+        }
+      }
+      return item;
+    });
+    localStorage.setItem("recipes", JSON.stringify(newData));
+    setRecipes(newData);
+  };
+
+  const getRecipeById = (id) => {
+    return recipes?.find((item) => item.id === id);
+  };
+
+  const createRecipe = (data) => {
+    const initialData = JSON.parse(localStorage.getItem("recipes"));
+    const newData = [
+      ...initialData,
+      {
+        ...data,
+        id: Date.now().toString(36) + Math.random().toString(36),
+      },
+    ];
+    localStorage.setItem("recipes", JSON.stringify(newData));
+    setRecipes(newData);
+  };
+
   return (
     <GlobalContext.Provider
       value={{
@@ -37,6 +72,9 @@ export const GlobalContextProvider = ({ children }) => {
         recipes,
         addRecipes,
         deleteRecipe,
+        updateRecipe,
+        getRecipeById,
+        createRecipe,
       }}>
       {children}
     </GlobalContext.Provider>

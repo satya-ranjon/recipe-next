@@ -19,7 +19,8 @@ const initialState = {
 export default function CreateRecipe() {
   const [recipe, setRecipe] = useState(initialState);
 
-  const { isCreateRecipe, setIsCreateRecipe } = useGlobalContext();
+  const { isCreateRecipe, setIsCreateRecipe, createRecipe } =
+    useGlobalContext();
 
   const handleCreatingRecipe = () => {
     setIsCreateRecipe((prev) => !prev);
@@ -58,7 +59,17 @@ export default function CreateRecipe() {
       return;
     }
 
-    console.log(recipe);
+    createRecipe(recipe);
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: `Recipe create successfully !`,
+      showConfirmButton: false,
+      iconColor: "#fb923c",
+      timer: 1500,
+    });
+
+    setRecipe(initialState);
   };
 
   return (
