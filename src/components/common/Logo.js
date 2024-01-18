@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "@/assets/logo.png";
 import Link from "next/link";
-import { lobster } from "@/styles/fonts";
+import { lobster } from "@/styles/font";
 
 const Logo = () => {
   return (
