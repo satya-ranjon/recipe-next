@@ -1,6 +1,6 @@
 # RecipeRealm
 
-<a href="https://daily-routine-tool.netlify.app" target="_blank" style="font-size:33px"> Live </a>
+<a href="https://recipe-next-eight.vercel.app/" target="_blank" style="font-size:33px"> Live </a>
 
 <img src="./src/assets/app.png" />
 
